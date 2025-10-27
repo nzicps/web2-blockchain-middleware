@@ -6,4 +6,5 @@ app.get('/', (req, res) => {
   res.json({ status: '✅ Web2 Blockchain Middleware running successfully!' });
 });
 
-app.listen(PORT, () => console.log(\🚀 Server running on port \\));
+app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+
